@@ -1,4 +1,15 @@
 @import "tailwindcss";
 
 
+.nice {
+    @apply p-10 bg-cover bg-center
+}
+
+.grid-img{
+    @apply w-24 h-24 object-cover rounded-full border-2 border-teal-400 mb-4 sm:mb-0
+}
+
+.a{
+    @apply bg-blue-50 text-slate-800 font-sans
+}
 
