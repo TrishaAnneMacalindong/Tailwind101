@@ -1,12 +1,27 @@
 {
   "name": "trishawind",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000T\u0000a\u0000i\u0000l\u0000w\u0000i\u0000n\u0000d\u00001\u00000\u00001\u0000\r\u0000 \u0000",
   "license": "ISC",
   "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx @tailwind/cli -i ./src/input.css -o ./src/input.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrishaAnneMacalindong/Tailwind101.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/TrishaAnneMacalindong/Tailwind101/issues"
+  },
+  "homepage": "https://github.com/TrishaAnneMacalindong/Tailwind101#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "express": "^5.1.0",
+    "tailwindcss": "^4.1.13"
   }
 }
